@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema dbmsId="mysql_id">
+    <column comment="" default="" key="false" label="barrier_element"
+        length="3" nullable="false"
+        originalDbColumnName="barrier_element" pattern="" precision="0"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false"
+        label="functional_location" length="50" nullable="true"
+        originalDbColumnName="functional_location" pattern=""
+        precision="0" talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="true" label="asset_id"
+        length="10" nullable="false" originalDbColumnName="asset_id"
+        pattern="" precision="0" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="true" label="facility_id"
+        length="10" nullable="false" originalDbColumnName="facility_id"
+        pattern="" precision="0" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false"
+        label="performance_standard_id" length="10" nullable="false"
+        originalDbColumnName="performance_standard_id" pattern=""
+        precision="0" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="planner_group_id"
+        length="10" nullable="false"
+        originalDbColumnName="planner_group_id" pattern="" precision="0"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="abc_indicator_id"
+        length="10" nullable="false"
+        originalDbColumnName="abc_indicator_id" pattern="" precision="0"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="barrier_metrics"
+        length="21" nullable="false"
+        originalDbColumnName="barrier_metrics" pattern="" precision="0"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="true" label="work_order_number"
+        length="50" nullable="false"
+        originalDbColumnName="work_order_number" pattern=""
+        precision="0" talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false"
+        label="work_order_description" length="50" nullable="false"
+        originalDbColumnName="work_order_description" pattern=""
+        precision="0" talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="order_type"
+        length="50" nullable="false" originalDbColumnName="order_type"
+        pattern="" precision="0" talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="user_status"
+        length="50" nullable="false" originalDbColumnName="user_status"
+        pattern="" precision="0" talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false"
+        label="awaiting_deferrment" length="1" nullable="false"
+        originalDbColumnName="awaiting_deferrment" pattern=""
+        precision="0" talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="deferred"
+        length="1" nullable="false" originalDbColumnName="deferred"
+        pattern="" precision="0" talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="work_centre"
+        length="50" nullable="false" originalDbColumnName="work_centre"
+        pattern="" precision="0" talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false"
+        label="latest_allowable_finish_date" length="19" nullable="true"
+        originalDbColumnName="latest_allowable_finish_date"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0"
+        talendType="id_Date" type="DATETIME"/>
+    <column comment="" default="" key="false" label="maint_activ_type"
+        length="50" nullable="true"
+        originalDbColumnName="maint_activ_type" pattern="" precision="0"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="created_at"
+        length="19" nullable="false" originalDbColumnName="created_at"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0"
+        talendType="id_Date" type="DATETIME"/>
+    <column comment="" default="" key="false" label="updated_at"
+        length="19" nullable="false" originalDbColumnName="updated_at"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0"
+        talendType="id_Date" type="DATETIME"/>
+</schema>

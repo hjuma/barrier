@@ -1,0 +1,2 @@
+facility_code,work_order_number,functional_location,work_order_description,order_type,planner_group,user_status,abc_field,work_centre,maint_activ_type,latest_allowable_finish_date,system_status
+STAM,81039560,STAM-U-HPWH-WCP,Vendor Service HPU Panel (STAM) - J6,UM01,NIN ,WCOM,U,INST,SFC,,CLSD CNF  NMAT PRC  SETC

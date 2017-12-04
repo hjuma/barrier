@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema>
+    <column comment="" default="" key="true" label="id" length="10"
+        nullable="false" originalDbColumnName="id" originalLength="0"
+        pattern="" precision="0" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="version"
+        length="10" nullable="false" originalDbColumnName="version"
+        originalLength="0" pattern="" precision="0"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="barrier_id"
+        length="10" nullable="false" originalDbColumnName="barrier_id"
+        originalLength="0" pattern="" precision="0"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="amber_start"
+        length="10" nullable="false" originalDbColumnName="amber_start"
+        originalLength="0" pattern="" precision="0"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="amber_end"
+        length="10" nullable="false" originalDbColumnName="amber_end"
+        originalLength="0" pattern="" precision="0"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="updated_by"
+        length="35" nullable="false" originalDbColumnName="updated_by"
+        originalLength="0" pattern="" precision="0"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="'Initial system load'" key="false"
+        label="update_comment" length="200" nullable="true"
+        originalDbColumnName="update_comment" originalLength="0"
+        pattern="" precision="0" talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="'1'" key="false" label="current_flag"
+        length="0" nullable="false" originalDbColumnName="current_flag"
+        originalLength="0" pattern="" precision="0"
+        talendType="id_Boolean" type="BIT"/>
+    <column comment="" default="" key="false" label="start_dt"
+        length="19" nullable="false" originalDbColumnName="start_dt"
+        originalLength="0" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;"
+        precision="0" talendType="id_Date" type="DATETIME"/>
+    <column comment="" default="" key="false" label="end_dt" length="19"
+        nullable="true" originalDbColumnName="end_dt" originalLength="0"
+        pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0"
+        talendType="id_Date" type="DATETIME"/>
+</schema>

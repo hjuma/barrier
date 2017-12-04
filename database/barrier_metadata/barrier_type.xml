@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema>
+    <column comment="" default="" key="true" label="id" length="10"
+        nullable="false" originalDbColumnName="id" originalLength="0"
+        pattern="" precision="0" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="asset_id"
+        length="10" nullable="false" originalDbColumnName="asset_id"
+        originalLength="0" pattern="" precision="0"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="barrier_id"
+        length="10" nullable="false" originalDbColumnName="barrier_id"
+        originalLength="0" pattern="" precision="0"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="name" length="35"
+        nullable="false" originalDbColumnName="name" originalLength="0"
+        pattern="" precision="0" talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="display_order"
+        length="10" nullable="false"
+        originalDbColumnName="display_order" originalLength="0"
+        pattern="" precision="0" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="created_at"
+        length="19" nullable="false" originalDbColumnName="created_at"
+        originalLength="0" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;"
+        precision="0" talendType="id_Date" type="DATETIME"/>
+    <column comment="" default="" key="false" label="updated_at"
+        length="19" nullable="false" originalDbColumnName="updated_at"
+        originalLength="0" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;"
+        precision="0" talendType="id_Date" type="DATETIME"/>
+</schema>

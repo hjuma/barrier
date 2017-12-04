@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_5U4EAqnLEeeSBYFI7jNKBA" name="barrier_ods_conn" id="_5U4EAKnLEeeSBYFI7jNKBA" label="barrier_ods_conn" dataPackage="_19jQEL5JEeevKMmcMSuK5w" ContextMode="true" ContextId="_zUMBIL5JEeevKMmcMSuK5w" contextName="Default" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/barrier_ods?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="context.barrier_ods_conn_Port" Username="context.barrier_ods_conn_Login" Password="context.barrier_ods_conn_Password" ServerName="context.barrier_ods_conn_Server" DatasourceName="" FileFieldName="" SID="context.barrier_ods_conn_Database" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="context.barrier_ods_conn_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_FAN60ahNEeeSBYFI7jNKBA" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_FAN61qhNEeeSBYFI7jNKBA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_FAN616hNEeeSBYFI7jNKBA" tag="Status" value=""/>
+    <taggedValue xmi:id="_FAN62KhNEeeSBYFI7jNKBA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_FAN62ahNEeeSBYFI7jNKBA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_FAN62qhNEeeSBYFI7jNKBA" tag="Description" value=""/>
+    <taggedValue xmi:id="_FAN626hNEeeSBYFI7jNKBA" tag="Author" value=""/>
+    <taggedValue xmi:id="_FAN63KhNEeeSBYFI7jNKBA" tag="otherParameter"/>
+    <taggedValue xmi:id="_FAN63ahNEeeSBYFI7jNKBA" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_FAN63qhNEeeSBYFI7jNKBA" tag="DB ProductVersion" value="5.5.5-10.2.6-MariaDB"/>
+    <taggedValue xmi:id="_FAN636hNEeeSBYFI7jNKBA" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_FAN60qhNEeeSBYFI7jNKBA" key="CONN_PARA_KEY_USERNAME" value="context.barrier_ods_conn_Login"/>
+    <parameters xmi:id="_8ar-YKnLEeeSBYFI7jNKBA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_19jQEL5JEeevKMmcMSuK5w" name="barrier_ods" dataManager="_5U4EAqnLEeeSBYFI7jNKBA"/>
+</xmi:XMI>

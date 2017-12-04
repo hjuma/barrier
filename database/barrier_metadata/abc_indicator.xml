@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema dbmsId="mysql_id">
+    <column comment="" default="" key="true" label="id" length="10"
+        nullable="false" originalDbColumnName="id" pattern=""
+        precision="0" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="code" length="3"
+        nullable="false" originalDbColumnName="code" pattern=""
+        precision="0" talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="asset_id"
+        length="10" nullable="false" originalDbColumnName="asset_id"
+        pattern="" precision="0" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="description"
+        length="100" nullable="false" originalDbColumnName="description"
+        pattern="" precision="0" talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="created_at"
+        length="19" nullable="false" originalDbColumnName="created_at"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0"
+        talendType="id_Date" type="DATETIME"/>
+    <column comment="" default="" key="false" label="updated_at"
+        length="19" nullable="false" originalDbColumnName="updated_at"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0"
+        talendType="id_Date" type="DATETIME"/>
+    <column comment="" default="" key="false" label="current_flag"
+        length="10" nullable="true" originalDbColumnName="current_flag"
+        pattern="" precision="0" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="start_dt"
+        length="19" nullable="true" originalDbColumnName="start_dt"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0"
+        talendType="id_Date" type="DATETIME"/>
+    <column comment="" default="" key="false" label="end_dt" length="19"
+        nullable="true" originalDbColumnName="end_dt"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0"
+        talendType="id_Date" type="DATETIME"/>
+    <column comment="" default="" key="false" label="version_no"
+        length="10" nullable="true" originalDbColumnName="version_no"
+        pattern="" precision="0" talendType="id_Integer" type="INT"/>
+</schema>

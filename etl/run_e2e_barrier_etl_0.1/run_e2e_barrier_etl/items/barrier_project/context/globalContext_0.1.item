@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_WUglMLQWEee9MLWUBKjgxw" confirmationNeeded="false" name="demo">
+    <contextParameter xmi:id="_WUglMbQWEee9MLWUBKjgxw" comment="" name="root" prompt="Set the path of the dir to store the example files folder:" promptNeeded="false" type="id_String" value="C:\TalendDemoFiles\"/>
+    <contextParameter xmi:id="_WUglMrQWEee9MLWUBKjgxw" comment="" name="name" prompt="name?" promptNeeded="false" type="id_String" value="Rasevel"/>
+    <contextParameter xmi:id="_WUglM7QWEee9MLWUBKjgxw" comment="" name="city" prompt="city?" promptNeeded="false" type="id_String" value="Sroament"/>
+    <contextParameter xmi:id="_WUglNLQWEee9MLWUBKjgxw" comment="" name="workspace" prompt="workspace?" promptNeeded="false" type="id_String" value="C:\TalendDemoWorkspace\"/>
+    <contextParameter xmi:id="_9j-HgL5MEeevKMmcMSuK5w" comment="" name="etl_data_home" prompt="etl_data_home?" promptNeeded="false" type="id_String" value="c:\projects\barrier\files\"/>
+    <contextParameter xmi:id="_X5V8EM3gEeeDq598rgdStA" comment="" name="source_x_data_home" prompt="source_x_data_home?" promptNeeded="false" type="id_String" value="barrier\etl\source_files\xcvb\"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_JBEc8L5NEeevKMmcMSuK5w" confirmationNeeded="false" name="dev">
+    <contextParameter xmi:id="_JBEc8b5NEeevKMmcMSuK5w" comment="" name="root" prompt="Set the path of the dir to store the example files folder:" promptNeeded="false" type="id_String" value="C:\TalendDemoFiles\"/>
+    <contextParameter xmi:id="_JBEc8r5NEeevKMmcMSuK5w" comment="" name="name" prompt="name?" promptNeeded="false" type="id_String" value="Rasevel"/>
+    <contextParameter xmi:id="_JBEc875NEeevKMmcMSuK5w" comment="" name="city" prompt="city?" promptNeeded="false" type="id_String" value="Sroament"/>
+    <contextParameter xmi:id="_JBEc9L5NEeevKMmcMSuK5w" comment="" name="workspace" prompt="workspace?" promptNeeded="false" type="id_String" value="C:\TalendDemoWorkspace\"/>
+    <contextParameter xmi:id="_JBEc9b5NEeevKMmcMSuK5w" comment="" name="etl_data_home" prompt="etl_data_home?" promptNeeded="false" type="id_String" value="c:\projects\barrier\files\"/>
+    <contextParameter xmi:id="_X5V8Ec3gEeeDq598rgdStA" comment="" name="source_x_data_home" prompt="source_x_data_home?" promptNeeded="false" type="id_String" value="barrier\etl\source_files\xcvb\"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_JBEc9r5NEeevKMmcMSuK5w" confirmationNeeded="false" name="prod">
+    <contextParameter xmi:id="_JBEc975NEeevKMmcMSuK5w" comment="" name="root" prompt="Set the path of the dir to store the example files folder:" promptNeeded="false" type="id_String" value="C:\TalendDemoFiles\"/>
+    <contextParameter xmi:id="_JBEc-L5NEeevKMmcMSuK5w" comment="" name="name" prompt="name?" promptNeeded="false" type="id_String" value="Rasevel"/>
+    <contextParameter xmi:id="_JBEc-b5NEeevKMmcMSuK5w" comment="" name="city" prompt="city?" promptNeeded="false" type="id_String" value="Sroament"/>
+    <contextParameter xmi:id="_JBEc-r5NEeevKMmcMSuK5w" comment="" name="workspace" prompt="workspace?" promptNeeded="false" type="id_String" value="C:\TalendDemoWorkspace\"/>
+    <contextParameter xmi:id="_JBEc-75NEeevKMmcMSuK5w" comment="" name="etl_data_home" prompt="etl_data_home?" promptNeeded="false" type="id_String" value="c:\projects\barrier\files\"/>
+    <contextParameter xmi:id="_X5V8Es3gEeeDq598rgdStA" comment="" name="source_x_data_home" prompt="source_x_data_home?" promptNeeded="false" type="id_String" value="barrier\etl\source_files\xcvb\"/>
+  </talendfile:ContextType>
+</xmi:XMI>

@@ -1,0 +1,229 @@
+SELECT  concat('insert into control.task 
+(taskbody
+,taskmodifieddate
+,taskcreationdate
+,taskactiveflag
+,taskstatusflag
+,taskname) 
+values
+ ( ' , "'",'truncate table ', table_schema ,'.', table_name
+ ,';'
+ ,"',"
+ ,"SYSDATE()",','
+ ,"SYSDATE()
+ ,1
+ ,1
+ ,' "''
+ ,table_schema ,'.', table_name   
+ ,"');" 
+ 
+ ) script 
+FROM information_schema.`TABLES` WHERE `TABLE_SCHEMA`='barrier_landing';
+
+
+
+
+
+truncate table control.task ;
+
+
+insert into control.task 
+(taskbody
+,taskmodifieddate
+,taskcreationdate
+,taskactiveflag
+,taskstatusflag
+,taskname) 
+values
+ ( 'truncate table barrier_landing.ps_mapping_eis;',SYSDATE(),SYSDATE()
+ ,1
+ ,1
+ ,' barrier_landing.ps_mapping_eis');
+ 
+ 
+insert into control.task 
+(taskbody
+,taskmodifieddate
+,taskcreationdate
+,taskactiveflag
+,taskstatusflag
+,taskname) 
+values
+ ( 'truncate table barrier_landing.ps_mapping_nm01;',SYSDATE(),SYSDATE()
+ ,1
+ ,1
+ ,' barrier_landing.ps_mapping_nm01');
+ 
+ 
+ 
+insert into control.task 
+(taskbody
+,taskmodifieddate
+,taskcreationdate
+,taskactiveflag
+,taskstatusflag
+,taskname) 
+values
+ ( 'truncate table barrier_landing.work_order_eis_map1;',SYSDATE(),SYSDATE()
+ ,1
+ ,1
+ ,' barrier_landing.work_order_eis_map1');
+ 
+insert into control.task 
+(taskbody
+,taskmodifieddate
+,taskcreationdate
+,taskactiveflag
+,taskstatusflag
+,taskname) 
+values
+ ( 'truncate table barrier_landing.work_order_eis_mcp1;',SYSDATE(),SYSDATE()
+ ,1
+ ,1
+ ,' barrier_landing.work_order_eis_mcp1');
+ 
+ 
+ 
+insert into control.task 
+(taskbody
+,taskmodifieddate
+,taskcreationdate
+,taskactiveflag
+,taskstatusflag
+,taskname) 
+values
+ ( 'truncate table barrier_landing.work_order_eis_mdp1;',SYSDATE(),SYSDATE()
+ ,1
+ ,1
+ ,' barrier_landing.work_order_eis_mdp1');
+ 
+ 
+ 
+insert into control.task 
+(taskbody
+,taskmodifieddate
+,taskcreationdate
+,taskactiveflag
+,taskstatusflag
+,taskname) 
+values
+ ( 'truncate table barrier_landing.work_order_nm01_chis;',SYSDATE(),SYSDATE()
+ ,1
+ ,1
+ ,' barrier_landing.work_order_nm01_chis');
+ 
+ 
+insert into control.task 
+(taskbody
+,taskmodifieddate
+,taskcreationdate
+,taskactiveflag
+,taskstatusflag
+,taskname) 
+values
+ ( 'truncate table barrier_landing.work_order_nm01_f3fa;',SYSDATE(),SYSDATE()
+ ,1
+ ,1
+ ,' barrier_landing.work_order_nm01_f3fa');
+ 
+insert into control.task 
+(taskbody
+,taskmodifieddate
+,taskcreationdate
+,taskactiveflag
+,taskstatusflag
+,taskname) 
+values
+ ( 'truncate table barrier_landing.work_order_nm01_grov;',SYSDATE(),SYSDATE()
+ ,1
+ ,1
+ ,' barrier_landing.work_order_nm01_grov');
+ 
+
+insert into control.task 
+(taskbody
+,taskmodifieddate
+,taskcreationdate
+,taskactiveflag
+,taskstatusflag
+,taskname) 
+values
+ ( 'truncate table barrier_landing.work_order_nm01_grow;',SYSDATE(),SYSDATE()
+ ,1
+ ,1
+ ,' barrier_landing.work_order_nm01_grow');
+ 
+ 
+insert into control.task 
+(taskbody
+,taskmodifieddate
+,taskcreationdate
+,taskactiveflag
+,taskstatusflag
+,taskname) 
+values
+ ( 'truncate table barrier_landing.work_order_nm01_mj6a;',SYSDATE(),SYSDATE()
+ ,1
+ ,1
+ ,' barrier_landing.work_order_nm01_mj6a');
+ 
+ 
+insert into control.task 
+(taskbody
+,taskmodifieddate
+,taskcreationdate
+,taskactiveflag
+,taskstatusflag
+,taskname) 
+values
+ ( 'truncate table barrier_landing.work_order_nm01_mkew;',SYSDATE(),SYSDATE()
+ ,1
+ ,1
+ ,' barrier_landing.work_order_nm01_mkew');
+ 
+ 
+insert into control.task 
+(taskbody
+,taskmodifieddate
+,taskcreationdate
+,taskactiveflag
+,taskstatusflag
+,taskname) 
+values
+ ( 'truncate table barrier_landing.work_order_nm01_mst1;',SYSDATE(),SYSDATE()
+ ,1
+ ,1
+ ,' barrier_landing.work_order_nm01_mst1');
+
+
+insert into control.task 
+(taskbody
+,taskmodifieddate
+,taskcreationdate
+,taskactiveflag
+,taskstatusflag
+,taskname) 
+values
+ ( 'truncate table barrier_landing.work_order_nm01_stam;',SYSDATE(),SYSDATE()
+ ,1
+ ,1
+ ,' barrier_landing.work_order_nm01_stam');
+ 
+ 
+insert into control.task 
+(taskbody
+,taskmodifieddate
+,taskcreationdate
+,taskactiveflag
+,taskstatusflag
+,taskname) 
+values
+ ( 'truncate table barrier_landing.work_order_nm01_wind;',SYSDATE(),SYSDATE()
+ ,1
+ ,1
+ ,' barrier_landing.work_order_nm01_wind');
+ 
+ 
+select  * from  control.task ;
+
+

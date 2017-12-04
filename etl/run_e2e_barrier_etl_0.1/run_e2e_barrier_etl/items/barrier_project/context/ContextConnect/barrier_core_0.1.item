@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_92xPEL5JEeevKMmcMSuK5w" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_92xPEb5JEeevKMmcMSuK5w" comment="" name="barrier_Password" prompt="barrier_Password?" promptNeeded="false" type="id_Password" value="lOnBZhkA/OH0DQrKv0Sm3A=="/>
+  <contextParameter xmi:id="_92xPEr5JEeevKMmcMSuK5w" comment="" name="barrier_Server" prompt="barrier_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+  <contextParameter xmi:id="_92xPE75JEeevKMmcMSuK5w" comment="" name="barrier_Login" prompt="barrier_Login?" promptNeeded="false" type="id_String" value="root"/>
+  <contextParameter xmi:id="_92xPFL5JEeevKMmcMSuK5w" comment="" name="barrier_AdditionalParams" prompt="barrier_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+  <contextParameter xmi:id="_92xPFb5JEeevKMmcMSuK5w" comment="" name="barrier_Port" prompt="barrier_Port?" promptNeeded="false" type="id_String" value="3306"/>
+  <contextParameter xmi:id="_92xPFr5JEeevKMmcMSuK5w" comment="" name="barrier_Database" prompt="barrier_Database?" promptNeeded="false" type="id_String" value="barrier"/>
+</talendfile:ContextType>

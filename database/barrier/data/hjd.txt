@@ -1,0 +1,4 @@
+String foo = "Hbegin "+context.parent_job_name+" HEND";
+String pre = "Hbegin "+context.parent_job_pre+" HEND";
+String post = "Hbegin "+context.parent_job_post+" HEND";
+System.out.println(foo + "XXX");

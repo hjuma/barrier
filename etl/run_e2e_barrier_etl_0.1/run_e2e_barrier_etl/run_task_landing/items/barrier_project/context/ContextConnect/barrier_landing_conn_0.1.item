@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_R6T14L5KEeevKMmcMSuK5w" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_R6T14b5KEeevKMmcMSuK5w" comment="" name="barrier_landing_conn_Password" prompt="barrier_landing_conn_Password?" promptNeeded="false" type="id_Password" value="lOnBZhkA/OH0DQrKv0Sm3A=="/>
+  <contextParameter xmi:id="_R6T14r5KEeevKMmcMSuK5w" comment="" name="barrier_landing_conn_Server" prompt="barrier_landing_conn_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+  <contextParameter xmi:id="_R6T1475KEeevKMmcMSuK5w" comment="" name="barrier_landing_conn_Login" prompt="barrier_landing_conn_Login?" promptNeeded="false" type="id_String" value="root"/>
+  <contextParameter xmi:id="_R6T15L5KEeevKMmcMSuK5w" comment="" name="barrier_landing_conn_AdditionalParams" prompt="barrier_landing_conn_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+  <contextParameter xmi:id="_R6T15b5KEeevKMmcMSuK5w" comment="" name="barrier_landing_conn_Port" prompt="barrier_landing_conn_Port?" promptNeeded="false" type="id_String" value="3306"/>
+  <contextParameter xmi:id="_R6T15r5KEeevKMmcMSuK5w" comment="" name="barrier_landing_conn_Database" prompt="barrier_landing_conn_Database?" promptNeeded="false" type="id_String" value="barrier_landing"/>
+</talendfile:ContextType>

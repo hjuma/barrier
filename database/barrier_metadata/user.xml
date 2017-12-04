@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema>
+    <column comment="" default="" key="true" label="id" length="10"
+        nullable="false" originalDbColumnName="id" originalLength="0"
+        pattern="" precision="0" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="business_unit_id"
+        length="10" nullable="false"
+        originalDbColumnName="business_unit_id" originalLength="0"
+        pattern="" precision="0" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="role_id"
+        length="10" nullable="false" originalDbColumnName="role_id"
+        originalLength="0" pattern="" precision="0"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="first_name"
+        length="35" nullable="false" originalDbColumnName="first_name"
+        originalLength="0" pattern="" precision="0"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="last_name"
+        length="35" nullable="false" originalDbColumnName="last_name"
+        originalLength="0" pattern="" precision="0"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="username"
+        length="35" nullable="false" originalDbColumnName="username"
+        originalLength="0" pattern="" precision="0"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="email" length="255"
+        nullable="false" originalDbColumnName="email" originalLength="0"
+        pattern="" precision="0" talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="password"
+        length="255" nullable="false" originalDbColumnName="password"
+        originalLength="0" pattern="" precision="0"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="salt" length="255"
+        nullable="true" originalDbColumnName="salt" originalLength="0"
+        pattern="" precision="0" talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="last_login"
+        length="19" nullable="true" originalDbColumnName="last_login"
+        originalLength="0" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;"
+        precision="0" talendType="id_Date" type="DATETIME"/>
+    <column comment="" default="'active'" key="false" label="status"
+        length="8" nullable="true" originalDbColumnName="status"
+        originalLength="0" pattern="" precision="0"
+        talendType="id_Object" type="ENUM"/>
+    <column comment="" default="" key="false" label="created_at"
+        length="19" nullable="false" originalDbColumnName="created_at"
+        originalLength="0" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;"
+        precision="0" talendType="id_Date" type="DATETIME"/>
+    <column comment="" default="" key="false" label="updated_at"
+        length="19" nullable="false" originalDbColumnName="updated_at"
+        originalLength="0" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;"
+        precision="0" talendType="id_Date" type="DATETIME"/>
+</schema>

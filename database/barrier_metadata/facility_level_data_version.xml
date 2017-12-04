@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema dbmsId="mysql_id">
+    <column comment="" default="" key="true" label="facility_id"
+        length="10" nullable="false" originalDbColumnName="facility_id"
+        pattern="" precision="0" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="true" label="barrier_type_id"
+        length="10" nullable="false"
+        originalDbColumnName="barrier_type_id" pattern="" precision="0"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="true" label="barrier_metric_id"
+        length="10" nullable="false"
+        originalDbColumnName="barrier_metric_id" pattern=""
+        precision="0" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="count_of_data"
+        length="10" nullable="false"
+        originalDbColumnName="count_of_data" pattern="" precision="0"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="rag_status"
+        length="1" nullable="true" originalDbColumnName="rag_status"
+        pattern="" precision="0" talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="created_at"
+        length="19" nullable="false" originalDbColumnName="created_at"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0"
+        talendType="id_Date" type="DATETIME"/>
+    <column comment="" default="" key="false" label="updated_at"
+        length="19" nullable="false" originalDbColumnName="updated_at"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0"
+        talendType="id_Date" type="DATETIME"/>
+    <column comment="" default="" key="true" label="scd_version"
+        length="10" nullable="false" originalDbColumnName="scd_version"
+        pattern="" precision="0" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="true" label="scd_active"
+        length="10" nullable="false" originalDbColumnName="scd_active"
+        pattern="" precision="0" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="scd_start"
+        length="19" nullable="true" originalDbColumnName="scd_start"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0"
+        talendType="id_Date" type="DATETIME"/>
+    <column comment="" default="" key="false" label="scd_end"
+        length="19" nullable="true" originalDbColumnName="scd_end"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0"
+        talendType="id_Date" type="DATETIME"/>
+</schema>

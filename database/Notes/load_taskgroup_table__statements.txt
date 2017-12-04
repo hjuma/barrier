@@ -1,0 +1,46 @@
+ 
+ select * from control.task_group 
+ 
+  drop table `task_group`
+ 
+ CREATE TABLE IF NOT EXISTS `task_group` (
+  `taskgroupkey` int(11) NOT NULL AUTO_INCREMENT,
+  `taskgroupid` int(11) DEFAULT NULL,
+  `taskgroupname` varchar(500) DEFAULT NULL,
+  `taskgroupdescription` varchar(4000) DEFAULT NULL,
+  `taskgrouptype` int(11) NOT NULL DEFAULT 11,
+  `taskgroupactiveflag` int(11) DEFAULT 0,
+  `taskgroupstatusflag` int(11) DEFAULT 0,
+  `taskgroupmodifieddate` datetime DEFAULT NULL,
+  `taskgroupcreationdate` datetime DEFAULT NULL,
+  PRIMARY KEY  (taskgroupkey)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
+ 
+ 
+ insert into control.task_group    (
+  taskgroupid
+ ,taskgroupname
+ ,taskgroupdescription
+ ,taskgrouptype
+ ,taskgroupactiveflag
+ ,taskgroupstatusflag
+ ,taskgroupmodifieddate
+ ,taskgroupcreationdate)
+ values (
+  50001
+ ,'Load Landing tables'
+ ,'Does Load landing tables from source, enable must be 1 and status must be 1'
+ ,12
+ ,1
+ ,1
+ ,sysdate()
+ ,sysdate()
+ );
+ 
+ 
+
+
+
+
+  
+

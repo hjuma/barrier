@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_bYA74L5JEeevKMmcMSuK5w" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_bYA74b5JEeevKMmcMSuK5w" comment="" name="barrier_control_conn_Password" prompt="barrier_control_conn_Password?" promptNeeded="false" type="id_Password" value="lOnBZhkA/OH0DQrKv0Sm3A=="/>
+  <contextParameter xmi:id="_bYA74r5JEeevKMmcMSuK5w" comment="" name="barrier_control_conn_Server" prompt="barrier_control_conn_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+  <contextParameter xmi:id="_bYA7475JEeevKMmcMSuK5w" comment="" name="barrier_control_conn_Login" prompt="barrier_control_conn_Login?" promptNeeded="false" type="id_String" value="root"/>
+  <contextParameter xmi:id="_bYA75L5JEeevKMmcMSuK5w" comment="" name="barrier_control_conn_AdditionalParams" prompt="barrier_control_conn_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+  <contextParameter xmi:id="_bYA75b5JEeevKMmcMSuK5w" comment="" name="barrier_control_conn_Port" prompt="barrier_control_conn_Port?" promptNeeded="false" type="id_String" value="3306"/>
+  <contextParameter xmi:id="_bYA75r5JEeevKMmcMSuK5w" comment="" name="barrier_control_conn_Database" prompt="barrier_control_conn_Database?" promptNeeded="false" type="id_String" value="control"/>
+</talendfile:ContextType>

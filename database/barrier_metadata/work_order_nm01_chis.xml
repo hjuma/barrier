@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema dbmsId="mysql_id">
+    <column comment="" default="'CHIS'" key="false"
+        label="facility_code" length="4" nullable="false"
+        originalDbColumnName="facility_code" pattern="" precision="0"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="order" length="10"
+        nullable="true" originalDbColumnName="order" pattern=""
+        precision="0" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="functional_loc"
+        length="50" nullable="true"
+        originalDbColumnName="functional_loc" pattern="" precision="0"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="description"
+        length="50" nullable="true" originalDbColumnName="description"
+        pattern="" precision="0" talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="order_type"
+        length="50" nullable="true" originalDbColumnName="order_type"
+        pattern="" precision="0" talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="planner_group"
+        length="50" nullable="true" originalDbColumnName="planner_group"
+        pattern="" precision="0" talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="user_status"
+        length="50" nullable="true" originalDbColumnName="user_status"
+        pattern="" precision="0" talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="abc_indic"
+        length="1" nullable="true" originalDbColumnName="abc_indic"
+        pattern="" precision="0" talendType="id_String" type="CHAR"/>
+    <column comment="" default="" key="false" label="work_center"
+        length="50" nullable="true" originalDbColumnName="work_center"
+        pattern="" precision="0" talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="maint_activ_type"
+        length="50" nullable="true"
+        originalDbColumnName="maint_activ_type" pattern="" precision="0"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false"
+        label="latest_allow_fin_dat" length="10" nullable="true"
+        originalDbColumnName="latest_allow_fin_dat"
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0"
+        talendType="id_Date" type="DATE"/>
+    <column comment="" default="" key="false" label="system_status"
+        length="50" nullable="true" originalDbColumnName="system_status"
+        pattern="" precision="0" talendType="id_String" type="VARCHAR"/>
+</schema>
