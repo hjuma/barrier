@@ -4,7 +4,7 @@ Dashboard to indicate barrier health and highlight areas that need focus.
 # Getting Started
 1. Clone the repository
     ```
-    $ git clone git@gitlab.dl.uk.centricaplc.com:iotahoe_developers/barrier.git
+    $ git clone   https://github.com/hjuma/barrier.git
     ```
 2. Install API dependencies:
     ```
