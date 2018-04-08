@@ -19,6 +19,16 @@ Dashboard to indicate barrier health and highlight areas that need focus.
     ```
 4. Install MariaDB Server 10.6.x (choose to include optional install of Heidi SQL)
 
+download and install 
+
+https://downloads.mariadb.com/MariaDB/mariadb-10.2.14/macOS/mariadb-10.2.12-osx10.13-x86_64.pkg
+
+create database barrier
+
+allow tools to connect
+
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY 'akeep7n1' WITH GRANT OPTION;
+
 5. Connect to your local instance of MariaDB and create the following databases:
     a) barrier
     b) barrier_landing
